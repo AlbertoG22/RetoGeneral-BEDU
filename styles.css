@@ -280,11 +280,31 @@ nav > ul > li > a {
     margin-top: 25px;
 }
 /*-------------------- tabla section -----------------------*/
-.tabla-container{
+.tabla-container-section{
     grid-column: 1/-1;
 }
-.tabla-container h2{
+.tabla-container-section h2{
     text-align: center;
+}
+.tabla-container{
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+}
+.header-tabla, .row-table{
+    grid-column: 1/-1;
+    /* background-color: lawngreen; */
+    display: grid;
+}
+.titulo-tabla, .texto-tabla{
+    grid-column: 1/7;
+}
+.container-img-cabecera, .palomita-row{
+    grid-column: 7/13;
+    display: flex;
+    background-color: lightsalmon;
+}
+.prueba{
+    background-color: maroon;
 }
 /*-------------------- circulo section -----------------------*/
 .circulo-contenedor{
