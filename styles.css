@@ -287,24 +287,53 @@ nav > ul > li > a {
     text-align: center;
 }
 .tabla-container{
-    display: grid;
-    grid-template-columns: repeat(12, 1fr);
+    box-shadow: 0 4px 20px rgba(0,0,0,.06);
+    border-radius: 5px;
+    border: 1px solid #dadada;
+    margin-top: 50px;
+    margin-left: 90px;
+    margin-right: 90px;
 }
 .header-tabla, .row-table{
-    grid-column: 1/-1;
+    /* grid-column: 1/-1; */
     /* background-color: lawngreen; */
     display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    align-items: center;
 }
 .titulo-tabla, .texto-tabla{
     grid-column: 1/7;
+    padding: 30px;
+    border-right: 1px solid #dadada;
 }
 .container-img-cabecera, .palomita-row{
     grid-column: 7/13;
     display: flex;
-    background-color: lightsalmon;
+    justify-content: space-around;
+    align-items: center;
+    height: 88px;
 }
-.prueba{
-    background-color: maroon;
+.titulo-tabla{
+    font-size: 26px;
+    font-family: Arial;
+    font-weight: bold;
+    color: #025157;
+}
+.texto-tabla h3{
+    font-size: 18px;
+    line-height: 1.2;
+    font-weight: 400;
+    font-family: Arial;
+}
+.texto-tabla p{
+    font-family: Arial;
+    line-height: 1.5;
+    font-size: 15px;
+    font-weight: 400;
+    color: #4a4a4a;
+}
+.row1, .row2, .row3, .row4, .row5, .row6{
+    border-bottom: 1px solid #dadada;
 }
 /*-------------------- circulo section -----------------------*/
 .circulo-contenedor{
