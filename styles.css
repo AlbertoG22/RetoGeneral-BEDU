@@ -53,7 +53,6 @@ nav > ul > li > a {
     font-family: sans-serif;
     color: white;
     background-color: #025157;
-    color: white;
     font-size: 14px;
     font-weight: 600;
     border-radius: 8px;
@@ -70,33 +69,185 @@ nav > ul > li > a {
 /*-------------------- main section -----------------------*/
 .main-info{
     grid-column: 1/7;
+    margin-top: 100px;
 }
 .main-video{
-    grid-column: 8/13;
+    grid-column: 7/13;
+    height: 100%;
+    margin-top: 100px;
+}
+.main-info h1{
+    font-family: 'Arial Narrow Bold';
+    color: #025157;
+    font-weight: bold;
+    font-size: 60px;
+}
+.main-info p{
+    font-family: Arial;
+    color: #46484c;
+    font-size: 20px;
+    font-size: 400;
+    text-align: left;
+    line-height: 32px;
+    margin-top: 20px;
+}
+.boton-main{
+    margin-top: 50px;
+    /* justify-content: space-between; */
+}
+.boton-main button{
+    color: white;
+    background-color: #67b54b;
+    font-size: 16px;
+    font-weight: 400;
+    border-radius: 5px;
+    padding: 15px 24px;
+    border: none;
+    text-align: center;
+}
+#shopify-main{
+    margin-left: 20px;
+}
+.start-info p{
+    font-size: 14px;
+    color: rgba(139,139,139,.8);
+}
+.video{
+    width: 95%;
+    height: 90%;
 }
 /*-------------------- brands section -----------------------*/
 .titulo-brands{
     grid-column: 1/-1;
     /* grid-row: 1; */
+    text-align: center;
+    font-size: 13px;
+    font-weight: 700;
+    font-family: Arial;
+    color: #4a4a4a5e;
+    letter-spacing: 1.5px;
+    margin-top: 40px;
+    margin-bottom: 10px;
 }
 .img-brands{
     grid-column: 1/-1;
     /* grid-row: 2; */
     display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img-logo{
+    margin: 30px;
 }
 /*-------------------- features section -----------------------*/
 .titulo-features{
     grid-column: 1/-1;
+    margin-top: 200px;
+}
+.titulo-features h2{
+    font-size: 55px;
+    color: #025157;
+    font-weight: 700;
+    text-align: center;
+}
+.titulo-features p{
+    font-family: Arial;
+    color: #46484c;
+    font-size: 18px;
+    font-size: 500;
+    margin-top: 5px;
+    margin-bottom: 40px;
+    text-align: center;
 }
 .articles-features{
     grid-column: 1/-1;
-    display: flex;
+    display: grid;
+    padding: 20px;
 }
+.article-feat{
+    text-align: center;
+    padding: 0 20px 0 20px;
+}
+.article-feat img{
+    width: 100%;
+    height: 60%;
+    margin-bottom: 30px;
+}
+.article-feat a{
+    font-weight: 500;
+    font-size: 23px;
+    font-family: Arial;
+    line-height: 1.2;
+    text-decoration: none;
+    color: inherit;
+}
+.article-feat p{
+    font-family: Arial;
+    color: #46484c;
+    font-size: 18px;
+    font-size: 500;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    text-align: center;
+    line-height: 1.5;
+}
+.art1{
+    grid-column: 1/5;
+
+}
+.art2{
+    grid-column: 5/9;
+}
+.art3{
+    grid-column: 9/13;
+}
+
 /*-------------------- cards section -----------------------*/
+.articles-section h2{
+    grid-column: 1/-1;
+    text-align: center;
+    font-size: 36px;
+    font-weight: bold;
+    color: #025157;
+    margin-top: 200px;
+}
 .articles-padre{
     grid-column: 1/-1;
     display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 50px 20px 200px 20px;
 }
+.article-section{
+    display: flex;
+    border: 1px solid #dadada;
+    border-radius: 4px;
+    width: 280px;
+    font-family: Arial;
+    background-color: white;
+    box-shadow: 0 4px 20px rgba(0,0,0,.06);
+}
+.div-article{
+    padding: 30px;
+    text-align: center;
+}
+
+.div-article h4{
+    font-size: 19px;
+    font-weight: 500;
+    color: #343434;
+    margin-bottom: 20px;
+}
+.div-article p{
+    font-size: 15px;
+    color: #7e7e7e;
+}
+.div-article img{
+    height: 60px;
+    width: 38px;
+    margin-bottom: 20px;
+}
+
 /*-------------------- carousel section -----------------------*/
 .carousel-container{
     grid-column: 1/4;
