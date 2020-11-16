@@ -337,48 +337,119 @@ nav > ul > li > a {
 }
 /*-------------------- circulo section -----------------------*/
 .circulo-contenedor{
-    grid-column: 1/-1;
+    /* grid-column: 1/-1; */
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 150px;
+    margin-bottom: 250px;
+    justify-content: center;
+}
+.circulo-contenedor h2{
+    text-align: center;
+    padding: 0 300px 0 300px;
+}
+.circulo-contenedor button{
+    margin-top: 30px;
 }
 /*-------------------- grid cards section -----------------------*/
+.cards-section{
+    padding: 0 50px 0 50px;
+}
 .cards-container1{
     grid-column: 1/7;
-    
 }
 .cards-container2{
     grid-column: 7/2;
-    
 }
 .cards-section{
     display: flex;
 }
 .imagen-card{
     width: 100%;
+    padding: 15px;
+    border-radius: 20px;
 }
 /*-------------------- get started section -----------------------*/
-.get-container{
-    grid-column: 1/-1;
+
+
+.footer{
+    background-color: #fffbf7;
+    padding-top: 50px;
     display: flex;
-    justify-content: space-around;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.get-started-section{
+    /* grid-column: 1/-1; */
     background-color: #025157;
     color: white;
     border-radius: 8px;
+    margin-top: 50px;
+    width: 90%;
+    padding: 30px 50px 30px 50px;
+}
+.get-container{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+}
+.contenedor1 h5{
+    font-weight: 400;
+    line-height: 46px;
+    font-size: 34px;
+}
+.contenedor1 p{
+    font-weight: 400;
+    line-height: 25px;
+    color: white;
+    font-size: 17px;
+    font-family: Arial;
+}
+.contenedor1 a{
+    font-weight: 400;
+    line-height: 25px;
+    font-size: 17px;
+    font-family: Arial;
+    color: #6abf4b;
+    text-decoration: none;
+}
+.contenedor2 p{
+    font-size: 12px;
+    line-height: 16px;
+    color: #c8c8c8;
+    font-family: Arial;
+}
+.contenedor2 button{
+    color: white;
+    background-color: #67b54b;
+    font-size: 16px;
+    font-weight: 400;
+    border-radius: 5px;
+    padding: 15px 24px;
+    border: none;
+    text-align: center;
 }
 /*-------------------- final section -----------------------*/
+.final-section{
+    margin-top: 50px;
+    width: 90%;
+    padding: 30px 50px 30px 50px;
+}
 .subscribe-final{
-    grid-column: 1/7;
+    /* grid-column: 1/7; */
 }
 .enlaces-final{
-    grid-column: 7/13;
+    /* grid-column: 7/13; */
     display: flex;
 }
 /*-------------------- footer -----------------------*/
 .redes-footer{
-    grid-column: 1/7;
+    /* grid-column: 1/7; */
     display: flex;
 }
 .copy-footer{
-    grid-column: 7/13;
+    /* grid-column: 7/13; */
     place-self: end;
 }
-
 
