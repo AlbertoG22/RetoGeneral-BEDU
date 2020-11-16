@@ -335,6 +335,12 @@ nav > ul > li > a {
 .row1, .row2, .row3, .row4, .row5, .row6{
     border-bottom: 1px solid #dadada;
 }
+.palomita-row > div > p{
+    color: #4a4a4a;
+    font-size: 10px;
+    text-align: center;
+    padding: 10px;
+}
 /*-------------------- circulo section -----------------------*/
 .circulo-contenedor{
     /* grid-column: 1/-1; */
@@ -434,22 +440,106 @@ nav > ul > li > a {
 .final-section{
     margin-top: 50px;
     width: 90%;
-    padding: 30px 50px 30px 50px;
+    display: flex;
+    justify-content: space-between;
 }
 .subscribe-final{
     /* grid-column: 1/7; */
+    width: 35%;
+}
+.subscribe-final #subs{
+    font-family: Arial;
+    font-weight: 500;
+    font-size: 13px;
+    letter-spacing: 1px;
+    color: #025157;
+    margin-bottom: 26px;
+}
+.subscribe-final p{
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px;
+    font-size: 16px;
+    color: #4a4a4a;
+    margin-bottom: 15px;
 }
 .enlaces-final{
     /* grid-column: 7/13; */
     display: flex;
+    justify-content: space-evenly;
+    width: 50%;
 }
+.form-publicidad p {
+    color: #025157;
+}
+
+.contenedor-boton {
+    height: 45px;
+    margin-bottom: 50px;
+}
+
+.contenedor-boton button{
+    color: white;
+    background-color: #025157;
+    border-radius: 0px 8px 8px 0px;
+    border: solid rgb(219, 219, 219) 1px;
+    height: 100%;
+    font-size: 14px;
+    margin-left: -4px;
+    padding: 15px 15px;
+}
+.contenedor-boton input{
+    border-radius: 8px 0px 0px 8px;
+    border: solid rgb(219, 219, 219) 1px;
+    height: 100%;
+    font-size: 14px;
+    padding-left: 15px;
+}
+.enlaces-final > div > h3{
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    font-size: 13px;
+    letter-spacing: 1px;
+    color: #025157;
+    margin-bottom: 26px;
+}
+.enlaces-final > div > ul > li > a{
+    font-style: normal;
+    font-weight: 400;
+    line-height: 2.5;
+    font-size: 16px;
+    text-decoration: none;
+    font-family: Arial;
+    color: #4a4a4a;
+    list-style: none;
+}
+.enlaces-final > div > ul{
+    list-style: none;
+}
+
 /*-------------------- footer -----------------------*/
 .redes-footer{
     /* grid-column: 1/7; */
     display: flex;
+    width: 50%;
+    margin-top: 80px;
+    margin-bottom: 50px;
+    
 }
 .copy-footer{
     /* grid-column: 7/13; */
-    place-self: end;
+    width: 50%;
+    text-align: end;
+    padding-right: 50px;
+    margin-top: 80px;
+    margin-bottom: 50px;
 }
-
+.imagenes-footer{
+    display: flex;
+    align-items: center;
+    padding-left: 50px;
+}
+.imagenes-footer a{
+    margin: 8px;
+}
