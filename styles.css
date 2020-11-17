@@ -543,3 +543,12 @@ nav > ul > li > a {
 .imagenes-footer a{
     margin: 8px;
 }
+
+
+/* 765 */
+
+@media screen and (max-width: 480px) {
+    body{
+        background-color: orange;
+    }
+}

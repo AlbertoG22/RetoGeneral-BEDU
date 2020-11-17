@@ -1,0 +1,357 @@
+@media screen and (min-width: 480px) and (max-width: 780px) {
+    *{
+        margin: 0;
+        padding: 0;
+        border: 0;
+        box-sizing: border-box;
+    }
+    .grid{
+        display: grid;
+        grid-template-columns: repeat(6, 1fr);
+        width: 98%;
+        margin: 25px;
+        overflow: hidden;
+        align-items: center;
+        /* gap: 10px; */
+    }
+    /*-------------------- header -----------------------*/
+    header{
+        /* background-color: darkcyan; */
+        padding-top: 35px;
+    }
+    nav{
+        /* background-color: wheat; */
+        text-align: center;
+    }
+    nav > ul > li{
+        display: inline-block;
+        margin: 14px;
+        /* background-color: yellow; */
+    }
+    nav > ul > li > a {
+        text-decoration: none;
+        color: #025157;
+        /* font-family: "sans serif"; */
+        font-weight: 500;
+        font-size: 17px;
+        padding: 9px;
+    }
+    .logo-container{
+        grid-column: 1/4;
+        margin: auto;
+    }
+    .nav-header{
+        grid-column: 4/10;
+    }
+    .actions-header{
+        grid-column: 10/13;
+        display: inline-block;
+    }
+    .actions-header > * {
+        padding: 15px;
+    }
+    .boton-actions{
+        font-family: sans-serif;
+        color: white;
+        background-color: #025157;
+        font-size: 14px;
+        font-weight: 600;
+        border-radius: 8px;
+        padding: 15px 20px;
+        border: none;
+    }
+    .a-actions{
+        font-family: sans-serif;
+        color: #025157;
+        font-size: 14px;
+        font-weight: 600;
+        text-decoration: none;
+    }
+    /*-------------------- main section -----------------------*/
+    .main-info{
+        grid-column: 2/6;
+        margin-top: 30px;
+    }
+    .main-video{
+        grid-column: 1/7;
+        height: 100%;
+        margin-top: 100px;
+    }
+    .main-info h1{
+        font-family: 'Arial';
+        color: #025157;
+        font-weight: bold;
+        font-size: 50px;
+        text-align: center;
+    }
+    .main-info p{
+        font-family: Arial;
+        color: #46484c;
+        font-size: 20px;
+        font-size: 400;
+        text-align: left;
+        line-height: 32px;
+        margin-top: 20px;
+        text-align: center;
+    }
+    .boton-main{
+        margin-top: 50px;
+        /* justify-content: space-between; */
+        justify-content: center;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .boton-main button{
+        color: white;
+        background-color: #67b54b;
+        font-size: 16px;
+        font-weight: 400;
+        border-radius: 5px;
+        padding: 15px 24px;
+        border: none;
+        text-align: center;
+        width: 100%;
+    }
+    #shopify-main{
+        margin-left: 20px;
+        margin-top: 20px;
+    }
+    .start-info p{
+        font-size: 14px;
+        color: rgba(139,139,139,.8);
+    }
+    .video{
+        width: 95%;
+        height: 90%;
+    }
+    /*-------------------- brands section -----------------------*/
+    .titulo-brands{
+        grid-column: 1/-1;
+        text-align: center;
+        font-size: 13px;
+        font-weight: 700;
+        font-family: Arial;
+        color: #4a4a4a5e;
+        letter-spacing: 1.5px;
+        margin-top: 40px;
+        margin-bottom: 10px;
+    }
+    .img-brands{
+        grid-column: 1/-1;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+    .img-logo{
+        margin: 18px;
+    }
+    /*-------------------- features section -----------------------*/
+    .titulo-features{
+        grid-column: 1/-1;
+        margin-top: 70px;
+    }
+    .titulo-features h2{
+        font-size: 40px;
+        font-weight: 500;
+    }
+    .titulo-features p{
+        font-size: 16px;
+        margin-top: 10px;
+    }
+    .articles-features{
+        grid-column: 1/-1;
+        display: grid;
+        padding: 20px;
+        margin-top: -20px;
+    }
+    .article-feat{
+        text-align: center;
+        padding: 0 20px 0 20px;
+    }
+    .article-feat img{
+        width: 90%;
+        border-radius: 20px;
+    }
+    .article-feat p{
+        font-family: Arial;
+        color: #46484c;
+        font-size: 16px;
+    }
+    .art1{
+        grid-column: 1/-1;
+    }
+    .art2{
+        grid-column: 1/-1;
+    }
+    .art3{
+        grid-column: 1/-1;
+    }
+    
+    /*-------------------- cards section -----------------------*/
+    .articles-section{
+        margin-top: -180px;
+    }
+    .articles-padre{
+        grid-column: 1/-1;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        align-content: space-between;
+        margin-bottom: 10px;
+    }
+    .article-section{
+        margin-top: 20px;
+    }
+    /*-------------------- carousel section -----------------------*/
+    .carousel-section{
+        margin-top: 150px;
+    }
+    .carousel-container{
+        grid-column: 1/-1;
+        grid-row: 2;
+        width: 80%;
+    }
+    .corousel-info{
+        grid-column: 1/-1;
+        grid-row: 1;
+        padding-right: 40px;
+        padding-left: 50px;
+    }
+    .imagen{
+        width: 70%;
+    }
+    .titulo{
+        font-size: 35px;
+        font-weight: 700;
+        color: #025157;
+    }
+    .corousel-info p{
+        color: #4a4a4a;
+        font-size: 17px;
+        font-family: Arial;
+        line-height: 1.5;
+        text-align: justify;
+    }
+    /*-------------------- tabla section -----------------------*/  
+    .texto-tabla h3{
+        font-size: 16px;
+        line-height: 1.5;
+        font-weight: 300;
+        font-family: Arial;
+    }
+    .texto-tabla p{
+        font-family: Arial;
+        line-height: 1.2;
+        font-size: 14px;
+    }
+    /*-------------------- circulo section -----------------------*/
+    .circulo-contenedor{
+        /* grid-column: 1/-1; */
+        display: grid;
+    }
+    .circulo-contenedor h2{
+        grid-column: 2/6;
+        font-size: 35px;
+        text-align: center;
+        padding: 0 30px 0 30px;
+    }
+    .circulo-contenedor button{
+        grid-column: 3/5;
+    }
+    .circulo-contenedor img{
+        grid-column: 2/6;
+        place-self: center;
+        width: 110%;
+        margin-bottom: -120px;
+    }
+    /*-------------------- grid cards section -----------------------*/
+    .cards-section{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .imagen-card{
+        width: 100%;
+        padding: 15px;
+        border-radius: 30px;
+    }
+    /*-------------------- get started section -----------------------*/
+    .footer{
+        background-color: #fffbf7;
+        padding-top: 50px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .get-container{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .contenedor1 h5{
+        font-weight: 300;
+        font-size: 30px;
+        text-align: center;
+    }
+    .contenedor1 p{
+        font-family: Arial;
+    }
+    .contenedor1 a{
+        font-weight: 300;
+        font-size: 15px;
+        font-family: Arial;
+        color: #6abf4b;
+        text-decoration: none;
+    }
+    .contenedor2 p{
+        margin-top: 20px;
+    }
+    .contenedor2 button{
+        margin-top: 20px;
+        height: 30%;
+        width: 80%;
+    }
+    /*-------------------- final section -----------------------*/
+    .final-section{
+        display: grid;
+    }
+    .subscribe-final{
+        grid-column: 1/-1;
+        /* width: 35%; */
+        width: 100%;
+    }
+    
+    .subscribe-final p{
+        font-family: Arial;
+        font-weight: 400;
+        line-height: 25px;
+        font-size: 16px;
+        color: #4a4a4a;
+        margin-bottom: 15px;
+    }
+    .enlaces-final{
+        grid-column: 1/-1;
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        margin-bottom: -90px;
+    }        
+    /*-------------------- footer -----------------------*/
+    .redes-footer{
+        /* grid-column: 1/7; */
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .copy-footer{
+        /* grid-column: 3/-1;
+        grid-row: 2; */
+        width: 90%;
+        text-align: center;
+    }
+    .imagenes-footer{
+        /* grid-column: 1/-1;
+        grid-row: 1; */
+        width: 80%;
+        justify-content: center;
+        margin-bottom: -120px;
+    }
+}
